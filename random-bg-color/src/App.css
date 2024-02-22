@@ -21,3 +21,11 @@ body{
   margin-top: 20px;
   border-radius: 6px;
 }
+h1{
+  color: rgb(21, 13, 18);
+  border: 5px;
+  border-style: double;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 6px;
+  
+}
