@@ -1,11 +1,11 @@
 #counter-box{
   height: 250px;
   width: 250px;
-  background-color:#04AA6D;
+  background-image:linear-gradient(orange,blue,red,yellow);
   text-align: center;
   color: white;
   border-radius: 50%;
-  box-shadow: 0px 0px 5px 8px black;
+  box-shadow: 0px 0px 5px 11px rgb(95, 139, 44);
   font-size: 80px;
   margin: 70px;
   
@@ -14,4 +14,19 @@
   color: azure;
   font-size: 80px;
   padding-top: 70px;
+}
+#moving{
+  background-image: linear-gradient(red,orange,pink,green);
+  color: rgb(178, 58, 164);
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.btn{
+  background-image: linear-gradient(red,orange,pink,green);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: black;
+  font-size: 35px;
 }
