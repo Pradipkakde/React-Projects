@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from 'react';
 import './App.css';
-
+import Alert from './component/Alert';
 import Navbar from './component/Navbar';
 
 function App() {
@@ -10,14 +10,18 @@ function App() {
   useEffect(()=>{
 localStorage.setItem('current_theme',theme);
   },[theme])
+
+ 
   return (
+    <>
     <div className={`container ${theme}`}>
-      <Navbar theme={theme} setTheme={setTheme}/>
+        <Navbar theme={theme} setTheme={setTheme}/> 
+       
       </div>
+      <Alert alert={alert}></Alert>
+      </>
     
-    
-    
-  );
+ );
 }
 
 export default App;

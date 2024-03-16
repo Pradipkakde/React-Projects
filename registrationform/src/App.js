@@ -1,10 +1,13 @@
-import Multipleinputs from './Component/Forms/Multipleinputs';
+//import Multipleinputs from './Component/Forms/Multipleinputs';
 import './App.css';
+import SignupForm from './Component/Forms/SignupForm';
+
 
 function App() {
   return (
     <div>
-     <Multipleinputs/>
+     
+    <SignupForm/>
     </div>
   );
 }

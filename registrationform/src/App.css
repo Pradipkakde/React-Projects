@@ -1,138 +1,44 @@
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.signup-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
 }
-body{
-  font-size: 14px;
-  background:#f2f2f2;
-}
-.container{
-  background: white;
-  width: 500px;
-  padding: 25px;
-  
-  margin: 50px auto 0;
-  border-top: 5px solid red;
-  box-shadow: 0 0 7px 5px rgba(0,0,0,0.5);
-}
-.container h2{
-  font-size: 24px;
-  line-height: 24px;
-  padding: 30px;
+
+.signup-form h2 {
   text-align: center;
-  margin-top: 5px;
+  margin-bottom: 20px;
+}
 
+.input-group {
+  margin-bottom: 15px;
 }
-.input-name{
-  width: 90%;
-  position: relative;
-  margin: 20px auto;
 
+.input-group label {
+  display: block;
+  font-weight: bold;
 }
-.lock{
-  padding: 8px 11px;
-}
-.name{
-  width: 45%;
-  padding: 8px 0 8px 40px;
-}
-.input-name span{
-  margin-left: 35px;
-}
-.text-name{
+
+.input-group input {
   width: 100%;
-  padding: 8px 0 8px 40px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
-.input-name i{
-  position: absolute;
-  font-size: 18px;
-  color: red;
-  border-right: 1px solid #cccccc;
-}
-.text-name,.name{
-  border: 1px solid #cccccc;
-  outline: none;
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  transition: all 0.30s ease-in-out;
-}
-.text-name:hover,.name:hover
-{
-  background-color: #fafafa;
-}
-.text-name:focus,.name:focus
-{
-  border: 1px solid blue;
-}
-.radio-button
-{
-  margin-right: 4px;
-}
-.input-name label{
-  margin-right: 30px;
-}
-.country{
-  display: inline-block;
+
+button {
   width: 100%;
-  height: 35px;
-  padding: 0px 15px;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
   cursor: pointer;
-  border: 1px solid #cccccc;
-  color: #7b7b7b;
-  border-radius: 0;
-  background: white;
-  appearance: none;
-  transition: all 0.25 ease;
-
-}
-.arrow{
-  position: absolute;
-  top: calc(50% - 4px);
-  right: 15px;
-  width: 0;
-  height: 0;
-  pointer-events: none;
-  border-width: 8px 5px 0 5px;
-  border-style: solid;
-  border-color: red transparent transparent transparent;
-}
-.country:hover + .arrow, .country:focus +arrow{
-  border-top-color: blue;
-
-}
-.check::before
-{
-content: " ";
-display: inline-block;
-width: 8px;
-height: 8px;
-margin-right: 8px;
-}
-.button{
-background-color: rgb(244, 11, 11);
-color: white;
-height: 35px;
-line-height: 35px;
-width: 100%;
-border: none;
-outline: none;
-font-size: 18px;
-cursor: pointer;
-margin-bottom: 10px;
-}
-.button:hover
-{
-  background-color: rgb(255, 68, 0);
-}
-@media(max-width:480px)
-{
-  .container{
-    width: 100%;
-
-  }
 }
 
-
+button:hover {
+  background: #0056b3;
+}

@@ -1,6 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {useState} from 'react'
+import Navbar from './Navbar';
+import Task from '../../dark-light-mode/src/component/Task';
 function App() {
   let [setvalue,newvalue]=useState(0)
   return (
@@ -13,8 +15,8 @@ function App() {
       <button className="btn" onClick={()=>newvalue(setvalue-1)}>DECREMENT</button>
       </center>
      
-    
-    </>
+      <Navbar/>
+          </>
    
   );
 }

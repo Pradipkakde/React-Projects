@@ -13,7 +13,7 @@ export default function Navbar({theme,setTheme}) {
 
   }
   return (
-    
+    <>
     <div className='navbar'>
       <img src={theme=='light'? logo_light :logo_dark} alt="" className='logo'/>
       <ul>
@@ -28,7 +28,9 @@ export default function Navbar({theme,setTheme}) {
       </div>
 
       <img onClick={()=>{toggle_mode()}} src={theme=='light'? toogle_light : toogle_dark} alt="" className="toggle-icon"/>
+      
     </div>
-   
+    
+    </>
   )
 }
